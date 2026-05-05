@@ -348,6 +348,7 @@ WEBHOOK_SECRET=your_secret
 ### Run the Application
 
 ```bash
+pip install -r requirements.txt
 uvicorn app.main:app --reload
 ```
 
