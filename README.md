@@ -214,27 +214,100 @@ Content-Type: application/json
 ## Folder Structure
 
 ```bash
-.
+ai-ticket-router/
 ├── app/
+│   ├── __init__.py
+│   ├── main.py
 │   ├── api/
+│   │   ├── __init__.py
+│   │   └── tickets.py
 │   ├── services/
+│   │   ├── __init__.py
+│   │   ├── classifier.py
+│   │   ├── router.py
+│   │   └── priority.py
 │   ├── models/
-│   ├── utils/
-│   └── main.py
+│   │   ├── __init__.py
+│   │   └── schemas.py
+│   └── utils/
+│       ├── __init__.py
+│       ├── validators.py
+│       └── logging.py
 ├── integrations/
+│   ├── __init__.py
 │   └── zendesk/
-├── logs/
-├── dashboard/
+│       ├── __init__.py
+│       └── client.py
 ├── tests/
+│   ├── __init__.py
+│   ├── test_classifier.py
+│   ├── test_router.py
+│   └── test_api.py
 ├── assets/
 │   ├── demo.gif
 │   ├── dashboard.png
 │   └── logs.png
+├── docs/
+│   ├── architecture.md
+│   ├── api.md
+│   └── screenshots.md
+├── .env.example
+├── .gitignore
 ├── Dockerfile
+├── README.md
 ├── requirements.txt
-└── README.md
+└── pyproject.toml
 ```
+## What each part is for
 
+1. app/
+Your main application code.
+
+2. api/tickets.py
+API endpoint for receiving and classifying support tickets.
+
+3. services/classifier.py
+AI/NLP logic that decides ticket category.
+
+4. services/router.py
+Routes the ticket to the correct team or queue.
+
+5. services/priority.py
+Assigns priority based on content and urgency.
+
+6. models/schemas.py
+Request and response data models.
+
+7. utils/validators.py
+Payload validation and cleanup.
+
+8. utils/logging.py
+Structured logging for production-style output.
+
+9. integrations/zendesk/client.py
+Zendesk connection and ticket push logic.
+
+10. tests/
+Unit and API tests for GitHub credibility.
+
+11. assets/
+Images, dashboard screenshots, and demo GIFs for README.
+
+12. docs/
+Extra documentation that makes the repo look complete.
+
+## Recommended order to build it
+
+1. app/main.py
+2. app/models/schemas.py
+3. app/services/classifier.py
+4. app/services/router.py
+5. app/api/tickets.py
+6. integrations/zendesk/client.py
+7. tests/test_classifier.py
+8. tests/test_router.py
+9. README.md
+10. assets/ and docs/
 ---
 
 ## Getting Started
