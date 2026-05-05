@@ -81,22 +81,8 @@ The system removes first-pass manual triage and ensures tickets are handled fast
 
 ## Architecture
 
-```text
-Ticket Source (Web / Email / Chat)
-        ↓
-Webhook Receiver
-        ↓
-Normalization Layer
-        ↓
-AI Classification Engine
-        ↓
-Priority Scoring Module
-        ↓
-Routing Logic
-        ↓
-Zendesk / Support Queue
-        ↓
-Logs + Metrics Dashboard
+<img width="1024" height="1536" alt="AI Ticket Router Architecture" src="https://github.com/user-attachments/assets/f058fb26-9383-4b4c-bad3-57346743bb80" />
+
 ```
 
 ---
