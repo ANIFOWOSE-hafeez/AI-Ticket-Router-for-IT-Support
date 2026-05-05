@@ -1,1 +1,8 @@
-
+fastapi
+uvicorn[standard]
+pydantic
+pytest
+httpx
+requests
+python-dotenv
+openai
