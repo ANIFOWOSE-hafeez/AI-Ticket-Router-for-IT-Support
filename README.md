@@ -150,8 +150,7 @@ The dashboard gives support and engineering teams visibility into classification
 
 <img width="1536" height="1024" alt="AI Ticket Router Dashboard" src="https://github.com/user-attachments/assets/e00cbac5-863c-49eb-9158-f4b90a69d30c" />
 
-```
-
+---
 ### Dashboard Views to Include in Your Repo
 
 * Overview page
