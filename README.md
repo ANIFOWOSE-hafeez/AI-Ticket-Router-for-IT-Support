@@ -417,16 +417,6 @@ Logs make it easier to:
 
 ---
 
-## Portfolio Presentation Tips
-
-Use this project in interviews as a story:
-
-* **Problem:** support tickets were slow and messy
-* **Action:** built AI triage and routing automation
-* **Result:** reduced response time by 40% and saved engineer hours
-
-That framing shows business value, not just coding ability.
-
 ---
 
 ## Disclaimer
