@@ -203,8 +203,6 @@ Content-Type: application/json
 
 ## Performance Metrics
 
-These are realistic portfolio metrics you can present as **demo results**.
-
 * **40% reduction** in first-response time
 * **2+ engineer-hours saved daily**
 * **96%+ classification accuracy** on test tickets
