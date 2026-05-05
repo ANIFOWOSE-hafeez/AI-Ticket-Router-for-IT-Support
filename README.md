@@ -363,6 +363,3 @@ This project is a portfolio/demo system. Any metrics, logs, and dashboard number
 ## License
 
 MIT
-
-```
-```
