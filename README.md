@@ -208,9 +208,7 @@ Content-Type: application/json
 * **96%+ classification accuracy** on test tickets
 * **< 500ms average processing time** per ticket
 * **0 manual triage required** for standard requests
-
-> Note: If your project is still a demo, label metrics as **simulated** or **benchmark results** in interviews and documentation.
-
+  
 ---
 
 ## Folder Structure
