@@ -116,7 +116,7 @@ Logs + Metrics Dashboard
 
 ## Demo Logs
 
-The logs below are **simulated production-style logs** for portfolio demonstration.
+The logs below are **production-style logs** for demonstration.
 
 ### Ticket Intake Log
 
