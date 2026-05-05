@@ -83,7 +83,6 @@ The system removes first-pass manual triage and ensures tickets are handled fast
 
 <img width="1024" height="1536" alt="AI Ticket Router Architecture" src="https://github.com/user-attachments/assets/f058fb26-9383-4b4c-bad3-57346743bb80" />
 
-```
 
 ---
 
