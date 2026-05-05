@@ -148,43 +148,8 @@ The logs below are **production-style logs** for demonstration.
 
 The dashboard gives support and engineering teams visibility into classification performance and ticket flow.
 
-### Suggested Dashboard Widgets
+<img width="1536" height="1024" alt="AI Ticket Router Dashboard" src="https://github.com/user-attachments/assets/e00cbac5-863c-49eb-9158-f4b90a69d30c" />
 
-* Total tickets processed today
-* Average first-response time
-* Auto-classification accuracy
-* Tickets routed by queue
-* Top issue categories
-* SLA risk count
-* Processing latency
-* Manual triage avoided
-
-### Example Dashboard Snapshot
-
-```text
-AI Ticket Router Dashboard
--------------------------------------------------
-Tickets Processed Today        524
-Auto-Classified Accuracy       96.8%
-Average Processing Time         0.43s
-Manual Triage Avoided           417 tickets
-First-Response Time Reduction   40%
-SLA Breaches                    0
-
-Top Categories:
-- network_issue
-- identity_access
-- hardware_issue
-- billing_issue
-- software_bug
-
-Queue Distribution:
-- tier1/helpdesk        42%
-- tier2/network         23%
-- tier2/hardware        18%
-- security              9%
-- billing               8%
--------------------------------------------------
 ```
 
 ### Dashboard Views to Include in Your Repo
