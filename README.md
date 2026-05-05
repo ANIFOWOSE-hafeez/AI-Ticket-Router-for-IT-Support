@@ -288,7 +288,7 @@ Structured logging for production-style output.
 Zendesk connection and ticket push logic.
 
 10. tests/
-Unit and API tests for GitHub credibility.
+Unit and API tests.
 
 11. assets/
 Images, dashboard screenshots, and demo GIFs for README.
