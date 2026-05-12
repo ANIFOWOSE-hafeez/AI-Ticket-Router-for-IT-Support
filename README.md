@@ -211,52 +211,7 @@ Content-Type: application/json
   
 ---
 
-## Folder Structure
 
-```bash
-ai-ticket-router/
-├── app/
-│   ├── __init__.py
-│   ├── main.py
-│   ├── api/
-│   │   ├── __init__.py
-│   │   └── tickets.py
-│   ├── services/
-│   │   ├── __init__.py
-│   │   ├── classifier.py
-│   │   ├── router.py
-│   │   └── priority.py
-│   ├── models/
-│   │   ├── __init__.py
-│   │   └── schemas.py
-│   └── utils/
-│       ├── __init__.py
-│       ├── validators.py
-│       └── logging.py
-├── integrations/
-│   ├── __init__.py
-│   └── zendesk/
-│       ├── __init__.py
-│       └── client.py
-├── tests/
-│   ├── __init__.py
-│   ├── test_classifier.py
-│   ├── test_router.py
-│   └── test_api.py
-├── assets/
-│   ├── demo.gif
-│   ├── dashboard.png
-│   └── logs.png
-├── docs/
-│   ├── architecture.md
-│   ├── api.md
-│   └── screenshots.md
-├── .env.example
-├── .gitignore
-├── Dockerfile
-├── README.md
-├── requirements.txt
-└── pyproject.toml
 ```
 ## What each part is for
 
